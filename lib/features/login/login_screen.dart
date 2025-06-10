@@ -7,12 +7,16 @@ class LoginScreen extends StatelessWidget {
   Widget build(BuildContext context) {
     return  Scaffold(
       body: Center(  
-        child: Text(
-          'Login Screen',
-         style: TextStyle(
-            fontSize: 24,
-            fontWeight: FontWeight.bold,
-            color: Colors.deepOrange,
+        child: Card(
+          child: Container(
+            child: Text(
+              'Login Screen',
+             style: TextStyle(
+                fontSize: 24,
+                fontWeight: FontWeight.bold,
+                color: Colors.deepOrange,
+              ),
+            ),
           ),
         ),
       ),
